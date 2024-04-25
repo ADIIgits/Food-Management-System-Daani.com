@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+.homepage
+{
+    margin: 0px;
+    padding: 0em 0em 0em 0em;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 3fr 10fr;
+    background-color: blue;
+}
+.banner
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/pics/foodpic.jpg);
+    background-size: cover;
+}
+.headname
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5em;
+    color: antiquewhite;
+}
+.belowpage
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+}
+.cardings
+{
+    margin: 0px;
+    padding: 0px;
+    height: 95%;
+    width: 50%;
+    background-color: darkblue;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 5fr 5fr;
+    
+
+}
+.signuparea
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100.5%;
+    width: 50%;
+    background-image: url(/pics/foodpic2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.signupform
+{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+.signupbox
+{
+    height: 80%;
+    width: 50%;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    
+    background-color: transparent;
+    backdrop-filter: brightness(1.5) blur(10px);
+}
+.buttonline
+{
+    height: 2em;
+    width: 100%;
+    margin: 0%;
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    background-color: transparent;
+}
+.buttons
+{
+    height: 100%;
+    width: 32%;
+    border: 0px solid black;
+    box-shadow: 0px;
+    border-radius: 0px;
+    color: black;
+
+    
+    background-color: transparent
+}
+.buttons:hover
+{
+    background-color: rgb(133, 187, 187);
+}
+.signupform
+{
+    
+    display:flex;
+    flex-direction: column;
+}
+.username .password
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3em;
+    
+}
+.submit
+{
+    height: 2.2em;
+    width: 5em;
+    border:0px solid black;
+    background-color: rgb(22, 136, 216);
+}
+.box
+{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 1em 1em 1em;
+    margin: 0%;
+   /* background-color: white;*/
+}
+#b1{background-color: wheat;}
+#b2{background-color:  #D5C7BA}
+#b3{background-color: beige;}
+#b4{background-color: #CDD5C6;}
+.benefithead
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    margin: 0%;
+    padding: 0.5em;
+}
+.benefitp
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    margin: 0%;
+    padding: 0.5em;
+}
+.signuphead
+{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.3em;
+    margin: 0%;
+    padding: 1em 2m 0em 2em;
+}
+.signupsubhead
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 0%;
+    padding: 0em;
+}
+footer
+{
+    height: 10em;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.links
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footerhead
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    padding: 1em 0.5em 1em 0.5em;
+}
+.footerlinks
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    padding: 0.5em;
+
+}

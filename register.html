@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        *{margin:0px;
+            padding:0px;
+        }
+        body{display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url("pics/foodpic2.jpg");
+            background-origin: border-box;
+            background-size: cover;
+            /* backdrop-filter: brightness(50%); */
+            height:840px;
+        }
+        .box{display:grid;
+             grid-template-columns: 5fr 5fr;
+             grid-template-rows: 1fr;
+             height: 70%;
+             width:80%;
+             background-color: transparent;
+             backdrop-filter: brightness(1.5) blur(10px);
+        }
+        #formareaid
+        {
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .subboxes
+        {
+            height: 100%;
+            width: 100%;
+
+        }
+        .formkemessege
+        {
+            height: 12em;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .formmessege
+        {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 2em;
+        }
+        .subformmessege
+        {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1em;
+        }
+        #formhai
+        {
+            margin: 0px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1em;
+        }
+        .bartext
+        {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 1em;
+            background-color: #CDD5C6;
+        }
+        .restraunt-address
+        {
+            height: 8em;
+            width: 20em;
+            background-color: #CDD5C6;
+        }
+        #registerbutton
+        {
+            height: 2.2em;
+            width: 6em;
+            border:0px solid black;
+            background-color: rgb(22, 136, 216);
+
+        }
+        .selectcity
+        {
+            background-color: #CDD5C6;
+        }
+        #imagebox
+        {
+            background-image: url(/pics/feedme.jpg);
+            background-size: cover;
+            animation-name: slider;
+            animation-duration: 25s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            animation-fill-mode: both;
+        }
+        @keyframes slider 
+        {
+        0%{background-image:url(/pics/feedme.jpg)}
+        26%{background-image:url(/pics/feedme2.jpg)}
+        56%{background-image:url(/pics/feedme3.jpg)}
+        80%{background-image:url(/pics/feedme4.jpg)}
+        
+        /* 65%{background-image:url(/pecs/newpecs/pretty.jpg)}
+        70%{background-image:url(/pecs/newpecs/waterpool.jpg)}
+        95%{background-image:url(/pecs/newpecs/waterpool.jpg)} */
+
+        }
+
+
+        
+      
+       
+                 
+
+                 
+        
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+
+        <div class="subboxes" id="formareaid">
+            <div class="formkemessege">
+            <p class="formmessege">Register as a Restuarant</p>
+            <p class="subformmessege">Together we can solve the world hunger</p>
+            </div>
+
+            <form id="formhai">
+                <p class="cardfont">Name of Owner&nbsp;:&nbsp;<input type="text" placeholder="" class="bartext"></input>
+                <p class="cardfont">Name of Restuarant&nbsp;:&nbsp;<input type="text" placeholder="" class="bartext"></input>
+                <br>
+                <p class="cardfont">Email&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="" class="bartext"></input><br></p>
+                <p class="cardfont">Password&nbsp;:&nbsp;<input type="password" placeholder="" class="bartext"></input>
+
+                
+                <br><br>
+                <select name="selectcity" class="selectcity">
+                    <option value="">select city</option>
+                    <option value="">Delhi</option>
+                    <option value="">Mumbai</option>  
+                    <option value="">Haryana</option>  
+                    <option value="">Jaipur</option>  
+                    <option value="">Hydrabad</option>  
+                    <option value="">Bangalore</option>  
+                    <option value="">Punjab</option>
+                </select>        
+                <br><br>
+                <textarea name="restraunt-address" class="restraunt-address" placeholder="Enter Your Restuarant Address" rows="5"></textarea>
+                <br><br>
+                
+                
+                <input type="submit" value="REGISTER" class="submit" id="registerbutton" placeholder="REGISTER"></input>    
+            </form>
+
+
+        </div>
+        <div class="subboxes" id="imagebox">
+            
+        </div>
+            
+          
+    </div>
+</body>
+</html>

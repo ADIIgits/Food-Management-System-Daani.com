@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="homepage">
+        <div class="banner">
+
+            <div class="headname">
+                <p>DAANI</p>
+            </div>
+
+        </div>
+
+        <div class="belowpage">
+            <div class="cardings">
+                    <div class="box" id="b1">
+                        <h1 class="benefithead">
+                            Nutritious Meals Anytime
+                        </h1>
+                        <p class="benefitp">
+
+                                we provide the most nutritious food from your neighbourhood
+
+                        </p>
+                    </div>
+                    <div class="box" id="b2">
+
+                        <h1 class="benefithead">
+                            Hygenic
+                        </h1>
+                        <p class="benefitp">
+
+                            Our Food is rated as star 4 hygenic by 96k users worldwide.
+
+
+                        </p>
+
+                    </div>
+                    <div class="box" id="b3">
+
+                        <h1 class="benefithead">
+                            Fast Delivery 
+                        </h1>
+                        <p class="benefitp">
+
+                                Apart from pickups, we also offer fast delivery options.
+                        </p>
+
+                    </div>
+                    <div class="box" id="b4">
+
+                        <h1 class="benefithead">
+                            Large Community
+                        </h1>
+                        <p class="benefitp">
+
+                                Daani is a community of over 1800 restraunts and hostels worldwide
+
+                        </p>
+
+                    </div>
+            </div>
+
+            <div class="signuparea">
+                    <div class="signupbox" id="singupboxid">
+
+                        <div class="buttonline">
+                            <button class="buttons" onclick="aboutusclick()">ABOUT&nbsp;US</button>
+                            
+                            <button class="buttons" onclick="callclick()">CALL</button>
+                            
+                            <button class="buttons" onclick="mailclick()">MAIL</button>
+                        </div>
+
+
+                        <form action="" class="signupform">
+                            <p class="signuphead">Sign in</p>
+                            <p class="signupsubhead">to order your meal.</p>
+                            <br><br>
+                            <p class="username">Email&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="" class="bartext"></input><br></p>
+                            <p class="password">Password&nbsp;:&nbsp;<input type="password" placeholder="" class="bartext"></input>
+                            <br><br>
+                            <input type="submit" value="LOGIN" class="submit" placeholder="CONFIRM & PAY" onclick="convertStructure()"></input>
+                        </form>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+<footer>
+        <h3 class="footerhead">&#169 Daani Corp.</h3>
+        <div class="links">
+            <a href="https://www.instagram.com/"><p class="footerlinks">Instagram</p></a>
+            <a href="https://www.facebook.com/"><p class="footerlinks">Facebook</p></a>
+            <a href="https://www.youtube.com/"><p class="footerlinks">Youtube</p></a>
+        </div>
+</footer>
+<script>
+function openNewHTMLFile(url) {
+     window.open(url, '_blank');
+    // window.location.replace(url);
+}
+function convertStructure()
+{
+    openNewHTMLFile("/afterlogin.html")
+}
+
+function aboutusclick()
+{
+    openNewHTMLFile("/aboutus.html");
+}
+function callclick()
+{
+    openNewHTMLFile("");
+}
+function mailclick()
+{
+    openNewHTMLFile("https://www.google.com/gmail/about/");
+}
+
+</script>
+    
+</script>
+</html>
